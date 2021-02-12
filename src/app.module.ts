@@ -22,5 +22,6 @@ import { Product } from './product.model';
   ],
   controllers: [AppController, ProductsController],
   providers: [AppService, ProductsService],
+
 })
 export class AppModule { }
